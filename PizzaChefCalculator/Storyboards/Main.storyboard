@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aHC-Ye-yRj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Glossary-->
+        <scene sceneID="ciU-fh-ccj">
+            <objects>
+                <viewController id="ZQA-g7-uqB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A8g-v8-cQK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wgx-Ac-hpm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Glossary" image="icon_glossary" selectedImage="icon_glossary" id="hRp-8v-ary">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZ5-3G-deZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="1730"/>
+        </scene>
+        <!--Glossary-->
+        <scene sceneID="Jdt-VC-60K">
+            <objects>
+                <viewController id="GNj-CT-hjR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t89-Ls-pnY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="scT-Ug-rcu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Glossary" image="icon_kneading" selectedImage="icon_kneading" id="vXp-yJ-EPL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kkX-Jc-dDn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="1730"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OWi-lF-TEz">
+            <objects>
+                <tabBarController id="aHC-Ye-yRj" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5SH-kH-JUo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GNj-CT-hjR" kind="relationship" relationship="viewControllers" id="Isn-sJ-tDK"/>
+                        <segue destination="ZQA-g7-uqB" kind="relationship" relationship="viewControllers" id="EBt-Xr-hi4"/>
+                        <segue destination="2zc-Gr-OqL" kind="relationship" relationship="viewControllers" id="mrw-Kq-SUv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZLC-WS-5QU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049" y="889"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="qgO-We-Olq">
+            <objects>
+                <viewController id="2zc-Gr-OqL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Dk-Da-uQy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ohf-lU-rkH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="nN6-5u-oeM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0q-yt-i3Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="1730"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_glossary" width="20.5" height="20.5"/>
+        <image name="icon_kneading" width="27" height="27"/>
+    </resources>
+</document>
