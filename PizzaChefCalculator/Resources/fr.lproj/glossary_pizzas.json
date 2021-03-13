@@ -64,7 +64,7 @@
         { "key": "", "name": "Croûte / Trottoir / Bordure", "definition": "Partie extérieure sans garniture de la pizza." },
         { "key": "", "name": "Croûter", "definition": "Se dit d'un morceau de pâte dont la partie en contact avec l'air est desséchée. Pâte non couverte." },
         { "key": "", "name": "Cuisson", "definition": "C'est la transformation de la pizza sous l'influence de la chaleur. La température peut varier de 260°C à plus de 500°C en fonction du four et du style de pizza." },
-        { "key": "", "name": "Cul-de-poule", "definition": "Récipient en inox." },
+        { "key": "", "name": "Cul-de-poule", "definition": "Récipient en inox." }
     ],
     "credits": ""
 }

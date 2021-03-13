@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8088F0E25AB958900FE8C7F /* glossary_pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = E8088F1025AB958900FE8C7F /* glossary_pizzas.json */; };
+		E8088F1A25B6FEE100FE8C7F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8088F1925B6FEE100FE8C7F /* GradientView.swift */; };
+		E8088F2025B7041100FE8C7F /* GlossaryLetterTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8088F1F25B7041100FE8C7F /* GlossaryLetterTVCell.swift */; };
+		E8088F2525B7395000FE8C7F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8088F2425B7395000FE8C7F /* UIViewExtension.swift */; };
 		E8396F23259E453000D0E9DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8396F22259E453000D0E9DC /* AppDelegate.swift */; };
 		E8396F25259E453000D0E9DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8396F24259E453000D0E9DC /* SceneDelegate.swift */; };
 		E8396F2D259E453100D0E9DC /* PizzaChefCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8396F2B259E453100D0E9DC /* PizzaChefCalculator.xcdatamodeld */; };
@@ -14,7 +18,12 @@
 		E8396F4F259E491B00D0E9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8396F4D259E491B00D0E9DC /* LaunchScreen.storyboard */; };
 		E8396F50259E491B00D0E9DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8396F4E259E491B00D0E9DC /* Main.storyboard */; };
 		E8396F59259FEAA200D0E9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8396F57259FEAA200D0E9DC /* Assets.xcassets */; };
-		E8396F5A259FEAA200D0E9DC /* glossary_pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = E8396F58259FEAA200D0E9DC /* glossary_pizzas.json */; };
+		E8DEE2BC25A447BD0018C7D1 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2BB25A447BD0018C7D1 /* Term.swift */; };
+		E8DEE2BE25A448D80018C7D1 /* GlossaryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2BD25A448D80018C7D1 /* GlossaryResponse.swift */; };
+		E8DEE2C625A44A920018C7D1 /* GlossaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2C425A44A910018C7D1 /* GlossaryPresenter.swift */; };
+		E8DEE2C725A44A920018C7D1 /* GlossaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2C525A44A910018C7D1 /* GlossaryViewController.swift */; };
+		E8DEE2C925A44B990018C7D1 /* GlossaryTermTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2C825A44B990018C7D1 /* GlossaryTermTVCell.swift */; };
+		E8DEE2CB25A44C4D0018C7D1 /* AilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEE2CA25A44C4D0018C7D1 /* AilTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8088F0F25AB958900FE8C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/glossary_pizzas.json; sourceTree = "<group>"; };
+		E8088F1325AB96C700FE8C7F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = fr; path = fr.lproj/glossary_pizzas.json; sourceTree = "<group>"; };
+		E8088F1425AB96CB00FE8C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/glossary_pizzas.json; sourceTree = "<group>"; };
+		E8088F1925B6FEE100FE8C7F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E8088F1F25B7041100FE8C7F /* GlossaryLetterTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryLetterTVCell.swift; sourceTree = "<group>"; };
+		E8088F2425B7395000FE8C7F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E8396F1F259E453000D0E9DC /* PizzaChefCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaChefCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8396F22259E453000D0E9DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8396F24259E453000D0E9DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +54,12 @@
 		E8396F4E259E491B00D0E9DC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E8396F52259E494800D0E9DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8396F57259FEAA200D0E9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PizzaChefCalculator/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		E8396F58259FEAA200D0E9DC /* glossary_pizzas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = glossary_pizzas.json; path = PizzaChefCalculator/glossary_pizzas.json; sourceTree = SOURCE_ROOT; };
+		E8DEE2BB25A447BD0018C7D1 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		E8DEE2BD25A448D80018C7D1 /* GlossaryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryResponse.swift; sourceTree = "<group>"; };
+		E8DEE2C425A44A910018C7D1 /* GlossaryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryPresenter.swift; sourceTree = "<group>"; };
+		E8DEE2C525A44A910018C7D1 /* GlossaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryViewController.swift; sourceTree = "<group>"; };
+		E8DEE2C825A44B990018C7D1 /* GlossaryTermTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryTermTVCell.swift; sourceTree = "<group>"; };
+		E8DEE2CA25A44C4D0018C7D1 /* AilTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AilTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8088F1725B6FEBE00FE8C7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8088F1825B6FEC600FE8C7F /* Custom */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8088F1825B6FEC600FE8C7F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E8088F1925B6FEE100FE8C7F /* GradientView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E8088F2325B7393D00FE8C7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8088F2425B7395000FE8C7F /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E8396F16259E453000D0E9DC = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +128,13 @@
 				E8396F22259E453000D0E9DC /* AppDelegate.swift */,
 				E8396F24259E453000D0E9DC /* SceneDelegate.swift */,
 				E8396F52259E494800D0E9DC /* Info.plist */,
-				E8396F56259FEA7D00D0E9DC /* Resources */,
+				E8088F2325B7393D00FE8C7F /* Extensions */,
+				E8088F1725B6FEBE00FE8C7F /* Views */,
+				E8DEE2B925A4478A0018C7D1 /* Models */,
+				E8DEE2B525A4420B0018C7D1 /* Protocols */,
 				E8396F4A259E482200D0E9DC /* Storyboards */,
 				E8396F47259E47FC00D0E9DC /* Modules */,
+				E8396F56259FEA7D00D0E9DC /* Resources */,
 				E8396F2B259E453100D0E9DC /* PizzaChefCalculator.xcdatamodeld */,
 			);
 			path = PizzaChefCalculator;
@@ -120,6 +168,9 @@
 		E8396F49259E481500D0E9DC /* Glossary */ = {
 			isa = PBXGroup;
 			children = (
+				E8DEE2C425A44A910018C7D1 /* GlossaryPresenter.swift */,
+				E8DEE2C525A44A910018C7D1 /* GlossaryViewController.swift */,
+				E8DEE2B825A444090018C7D1 /* Cells */,
 			);
 			path = Glossary;
 			sourceTree = "<group>";
@@ -137,9 +188,43 @@
 			isa = PBXGroup;
 			children = (
 				E8396F57259FEAA200D0E9DC /* Assets.xcassets */,
-				E8396F58259FEAA200D0E9DC /* glossary_pizzas.json */,
+				E8088F1025AB958900FE8C7F /* glossary_pizzas.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8DEE2B525A4420B0018C7D1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8DEE2CA25A44C4D0018C7D1 /* AilTableViewCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E8DEE2B825A444090018C7D1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E8DEE2C825A44B990018C7D1 /* GlossaryTermTVCell.swift */,
+				E8088F1F25B7041100FE8C7F /* GlossaryLetterTVCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E8DEE2B925A4478A0018C7D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8DEE2BA25A4479B0018C7D1 /* Glossary */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8DEE2BA25A4479B0018C7D1 /* Glossary */ = {
+			isa = PBXGroup;
+			children = (
+				E8DEE2BB25A447BD0018C7D1 /* Term.swift */,
+				E8DEE2BD25A448D80018C7D1 /* GlossaryResponse.swift */,
+			);
+			path = Glossary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "bertrand villain";
 				TargetAttributes = {
 					E8396F1E259E453000D0E9DC = {
@@ -206,6 +291,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = E8396F16259E453000D0E9DC;
 			productRefGroup = E8396F20259E453000D0E9DC /* Products */;
@@ -223,10 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8088F0E25AB958900FE8C7F /* glossary_pizzas.json in Resources */,
 				E8396F4F259E491B00D0E9DC /* LaunchScreen.storyboard in Resources */,
 				E8396F59259FEAA200D0E9DC /* Assets.xcassets in Resources */,
 				E8396F50259E491B00D0E9DC /* Main.storyboard in Resources */,
-				E8396F5A259FEAA200D0E9DC /* glossary_pizzas.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +332,15 @@
 			files = (
 				E8396F2D259E453100D0E9DC /* PizzaChefCalculator.xcdatamodeld in Sources */,
 				E8396F23259E453000D0E9DC /* AppDelegate.swift in Sources */,
+				E8088F1A25B6FEE100FE8C7F /* GradientView.swift in Sources */,
+				E8DEE2BE25A448D80018C7D1 /* GlossaryResponse.swift in Sources */,
+				E8DEE2C925A44B990018C7D1 /* GlossaryTermTVCell.swift in Sources */,
+				E8088F2025B7041100FE8C7F /* GlossaryLetterTVCell.swift in Sources */,
+				E8088F2525B7395000FE8C7F /* UIViewExtension.swift in Sources */,
+				E8DEE2C725A44A920018C7D1 /* GlossaryViewController.swift in Sources */,
+				E8DEE2BC25A447BD0018C7D1 /* Term.swift in Sources */,
+				E8DEE2CB25A44C4D0018C7D1 /* AilTableViewCell.swift in Sources */,
+				E8DEE2C625A44A920018C7D1 /* GlossaryPresenter.swift in Sources */,
 				E8396F25259E453000D0E9DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,11 +363,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		E8088F1025AB958900FE8C7F /* glossary_pizzas.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8088F0F25AB958900FE8C7F /* Base */,
+				E8088F1325AB96C700FE8C7F /* fr */,
+				E8088F1425AB96CB00FE8C7F /* en */,
+			);
+			name = glossary_pizzas.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		E8396F3F259E453500D0E9DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -295,6 +404,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -333,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -355,6 +466,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -387,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZPN8NJVCX;
 				INFOPLIST_FILE = PizzaChefCalculator/Info.plist;
@@ -396,6 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bertrandvillain.PizzaChefCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZPN8NJVCX;
 				INFOPLIST_FILE = PizzaChefCalculator/Info.plist;
@@ -414,6 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bertrandvillain.PizzaChefCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
